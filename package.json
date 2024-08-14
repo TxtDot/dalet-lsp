@@ -1,6 +1,6 @@
 {
   "name": "@txtdot/daleth-lsp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dalet language server",
   "main": "start.js",
   "directories": {

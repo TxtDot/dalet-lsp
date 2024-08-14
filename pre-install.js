@@ -33,9 +33,9 @@ const features = process.env.npm_config_features
   ? `--features ${process.env.npm_config_features.replace(",", " ")}`
   : "";
 
-console.log(`Installing and compiling daleth_lsp 0.1.0 ${features} ...`);
+console.log(`Installing and compiling daleth_lsp 0.1.1 ${features} ...`);
 exec(
-  `cargo install daleth_lsp --vers 0.1.0 ${features}`,
+  `cargo install daleth_lsp --vers 0.1.1 ${features}`,
   (error, stdout, stderr) => {
     console.log(stdout);
     if (error || stderr) {
