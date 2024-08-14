@@ -1,0 +1,26 @@
+[package]
+name = "daleth_lsp"
+version = "0.1.0"
+edition = "2021"
+authors = ["artegoser"]
+license = "MIT"
+description = "Dalet language server"
+repository = "https://github.com/txtdot/dalet-lsp"
+homepage = "https://github.com/TxtDot/dalet-lsp/tree/main/"
+readme = "./README.md"
+keywords = ["dalet", "daleth", "lsp"]
+categories = ["command-line-utilities"]
+
+[[bin]]
+name = "daleth-lsp"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1.0.78"
+tokio = { version = "1.17.0", features = ["full"] }
+tower-lsp = { version = "0.20.0", features = ["proposed"] }
+serde = { version = "1.0", features = ["derive"] }
+dalet = "1.0.0-pre.20"
+chumsky = { version = "=1.0.0-alpha.7" }
+ropey = "1.6.1"
+dashmap = "6.0.1"
