@@ -8,7 +8,7 @@ description = "Dalet language server"
 repository = "https://github.com/txtdot/dalet-lsp"
 homepage = "https://github.com/TxtDot/dalet-lsp/tree/main/"
 readme = "./README.md"
-keywords = ["dalet", "daleth", "lsp"]
+keywords = ["dalet", "DaletMark", "lsp"]
 categories = ["command-line-utilities"]
 
 [[bin]]
