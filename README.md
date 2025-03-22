@@ -1,2 +1,3 @@
-# daleth-lsp
-Daleth language server
+# dalet-lsp
+
+Dalet language server
